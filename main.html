@@ -7,10 +7,65 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+	<h2>Signup Form Car</h2>
+	<form action ="/submit" method="get">
+		<div>
+			<label for ="name">Name*</label>
+			<input required type="text" name="name" placeholder="Name"id="#name">
+		</div>
+<br>
+		<div>
+			<label for ="Email">Email*</label>
+			<input required type="email" name="Email" placeholder="Email"id="#email">
+		</div>
+<br>
+		<div>
+			<label for ="Gender">Gender*</label>
+			<input required type="radio" name="Gender"id="#gender_m">
+			<label for="male">Male</label>
+			<input required type="radio" name="Gender"id="#gender_f">
+			<label for="female">Female</label>
+		</div>
+<br>
+		<div>
 
+			<label for ="Car Brands"">Car Brands*</label>
+			<select>
+          <!-- option tag starts -->
+            <option>--Please choose an option--</option>
+            <option value="BMW">BMW</option>
+            <option value="Audi">Audi</option>
+            <option value="Mercedez">Mercedez</option>
+        <!-- option tag ends -->
+        </select>
+		</div>
+<br>
+		<div>
+			<label for ="Age">Age*</label>
+			<input required type="" name="Age" placeholder ="Age" id="#age">
+		</div>
+<br>
+		<div>
+			<label for ="DOB">DOB*</label>
+			<input required type="date" name="DOB"id="#dob">
+		</div>
+<br>
+		<div>
+			<label for ="Phone Number">Phone Number</label>
+			<input type="tel" name="Phone Number" placeholder="xxx-xxx-xxxx"id="#tel">
+		</div>
+<br>
+		<div>
+			<label for ="Password">Password*</label>
+			<input type="password" name="Password" placeholder="Password"id="#password">
+		</div>
+<br>
+		<div>
+			<label for ="TOS"> I agree to the TOS*</label>
+			<input required type="checkbox" name="TOS"id="#tos">
+		</div>		
+		<br>
+<button>submit</button>
 </body>
 
 </html>
